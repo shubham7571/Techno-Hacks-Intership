@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.mainnav {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.nav1 {
+    text-transform: uppercase;
+     display: flex;
+    height: 50%;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav1 h3 {
+    padding: 10px;
+    font-size: medium;
+}
+
+img {
+    height: 60px;
+    width: 130px;
+    margin-left: 50px;
+}
+
+.nav2 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 50%;
+}
+
+.nav2 i {
+    margin: 20px;
+    margin-top: 38px;
+}
+
+.maindiv {
+    display: flex;
+    justify-content: space-between;
+    height: 475px;
+    width: 100%;
+    background-color: lightgray;
+}
+
+.child1 {
+    width: 40%;
+    margin: 30px;
+}
+
+.child1 h5 {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 20px;
+
+}
+
+.child1 h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.child1 p {
+    font-size: 19px;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.child1 button {
+    background-color: rgb(10, 8, 8);
+    color: antiquewhite;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    width: 200px;
+    padding: 5px;
+    margin-left: 50px;
+}
+
+.child1::-webkit-scrollbar {
+    display: none;
+}
+
+.child2 {
+
+    width: 60%;
+    background-color: lightgray;
+
+    white-space: nowrap;
+    overflow-y: auto;
+}
+
+.child2::-webkit-scrollbar {
+    display: none;
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6.h5 {
+
+    color: rgb(17, 10, 10);
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.child2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6 {
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    object-fit: cover;
+    position: relative;
+    margin-right: 20px;
+    margin-left: 30px;
+    border: 1px solid black;
+}
+
+.card1 {
+    background-image: url(./Air-Jordans-2.jpg);
+}
+
+.card2 {
+    background-image: url(./Air-Jordans-2.jpg);
+}
+
+.card3 {
+    background-image: url(./Air-Jordans-2.jpg);
+}
+
+.card4 {
+    background-image: url(./Air-Jordans-2.jpg);
+}
+
+.card5 {
+    background-image: url(./Air-Jordans-2.jpg);
+}
+
+.card6 {
+    background-image: url(./Air-Jordans-2.jpg);
+}
